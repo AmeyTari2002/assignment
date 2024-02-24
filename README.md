@@ -1,5 +1,6 @@
 # React Project README
 Github: https://github.com/AmeyTari2002/assignment
+Demo: https://assignment-ameytari.netlify.app/
 
 
 Welcome to your React project! This README file provides essential information on setting up, running, and contributing to the project.
