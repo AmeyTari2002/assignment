@@ -4,17 +4,6 @@ Github: https://github.com/AmeyTari2002/assignment
 
 Welcome to your React project! This README file provides essential information on setting up, running, and contributing to the project.
 
-## Table of Contents
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Getting Started
-
 ### Prerequisites
 
 Make sure you have the following software installed on your machine:
