@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import search from '../assets/search.png'
 import { FaBars } from "react-icons/fa";
 const Navbar = () => {
-    const [nav, setNav] = useState()
+
     return (
         <div className='bg-[#212731] max-w-screen   h-[64px]  lg:w-[1614px] pl-10 md:pl-24 text-white flex items-center justify-between px-4 md:justify-center lg:gap-[60px] font-Inter text-[14px] '>
             <div className='relative'>

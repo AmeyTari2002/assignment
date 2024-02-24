@@ -90,7 +90,7 @@ const Model = ({ BestChoice, BestImg, BestText, number, height,sale, content, Bu
                         </div>
                         <div className='text-[#1B88F4] flex text-[16px] mt-[9px] gap-1'>
                             <p>{show}</p>
-                            {/* <img src={image3} alt="" className='w-[16px]' /> */
+                            {
                                 showimg && (
                                     <img src={showMoreimg} alt="" className='w-[16px]' />
                                 )
