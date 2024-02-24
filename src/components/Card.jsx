@@ -4,7 +4,7 @@ import logos from '../assets/logos.png'
 const Card = () => {
     return (
         <>
-            <div className='flex gap-5'>
+            <div className='flex items-center justify-center gap-5'>
                 <div className='h-[425px] md:w-[333px] bg-white my-5 grid grid-rows-2 rounded-[12px]'>
                     <div className=' flex items-center justify-center '>
                         <img src={logos} alt="" />
