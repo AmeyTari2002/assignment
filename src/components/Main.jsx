@@ -99,7 +99,7 @@ const Main = () => {
                     height="436"
                 />
                 <h1 className='text-[26px] ml-4 md:mx-0 md:text-[32px] mt-20'>Related deals you might like for</h1>
-                <div className='flex flex-col md:flex-row ml-5 md:flex md:ml-2'>
+                <div className='flex flex-col md:flex-row ml-5 md:flex md:ml-2 gap-4    ' >
                     <Card />
                     <Card />
                     <Card />

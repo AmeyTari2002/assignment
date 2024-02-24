@@ -12,7 +12,7 @@ const Model = ({ BestChoice, BestImg, BestText, number, height, content, Builder
     const containerClassName = `md:grid md:grid-cols-4 md:gap-5 ${height ? `h-${height}` : ''}`;
     return (
         <>
-            <div className='mx-7 mt-20 md:mt-16'>
+            <div className='mx-7 mt-20 md:mt-16 bg-white'>
                 <div className={containerClassName}>
                     <div className=' flex items-center justify-center relative'>
                         <img src={rectangle} className='absolute top-0 -left-6 border-2 rounded-full' alt="" />

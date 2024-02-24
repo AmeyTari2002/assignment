@@ -26,7 +26,7 @@ const Card = () => {
                             <p className='text-[#EF4C5D] text-[14px]'>(20% Off)</p>
                         </div>
                         <div>
-                            <div className='bg-[#1B88F4] rounded-[12px] h-[48px] w-[270px] md:w-[220x] mt-2 flex items-center justify-center'>
+                            <div className='bg-[#1B88F4] rounded-[12px] h-[48px] w-[292px] md:w-[220x] mt-2 flex items-center justify-center'>
                                 <p className='text-white'>View Deal</p>
                             </div>
                         </div>

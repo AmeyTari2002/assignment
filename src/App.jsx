@@ -6,7 +6,7 @@ import Main from './components/Main'
 const App = () => {
   return (
     <>
-      <div className='font-Inter'>
+      <div className='font-Inter bg-[#FBFCFD]'>
         <Navbar />
         <Main />
         
