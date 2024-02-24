@@ -16,7 +16,7 @@ Make sure you have the following software installed on your machine:
 git clone https://github.com/AmeyTari2002/assignment.git
 
 # 2. Change into the project directory:
-cd assignment-main
+cd assignment
 
 # 3. Install dependencies:
 npm install
