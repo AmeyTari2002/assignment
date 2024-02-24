@@ -7,7 +7,7 @@ import mark from '../assets/mark.png'
 import image3 from '../assets/image3.png'
 import star from '../assets/star1.png'
 
-const Model = ({ BestChoice, BestImg, BestText, number, height, content, Builder, heading, para, highlights, para2, show, showimg, showMoreimg, rating, review, stars }) => {
+const Model = ({ BestChoice, BestImg, BestText, number, height,sale, content, Builder, heading, para, highlights, para2, show, showimg, showMoreimg, rating, review, stars }) => {
     console.log(content)
     const containerClassName = `md:grid md:grid-cols-4 md:gap-5 ${height ? `h-${height}` : ''}`;
     return (
@@ -32,8 +32,11 @@ const Model = ({ BestChoice, BestImg, BestText, number, height, content, Builder
 
                     </div>
                     <div className='col-span-2  leading-[24px]' >
-                        <p className='text-[16px] text-[#4B5665] leading-[24px] font-[400]'><span className='font-bold'>{heading}</span>{para}
+                        <p className='text-[16px] text-[#4B5665] leading-[24px] w-[503px] font-[400]'><span className='font-bold'>{heading}</span>{para}
                         </p>
+                        {sale && (
+                            <p className='text-[#074786] bg-[#F2F4F7]  text-[13px] h-[26px] w-[61px] rounded-[4px] mt-[9px] '>(26% Off)</p>
+                        )}
                         <div className='font-bold leading-[24px] mt-1'>
                             {highlights}
                         </div>

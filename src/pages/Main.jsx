@@ -35,6 +35,7 @@ const Main = () => {
                     review="Exceptional"
                     stars={star}
                     content={false}
+                    sale={false}
                     height="255"
                 />
                 <Model
@@ -56,6 +57,7 @@ const Main = () => {
                     review="Excellent"
                     stars={star2}
                     content={false}
+                    sale={false}
                     height="255"
                 />
                 <Model
@@ -77,6 +79,7 @@ const Main = () => {
                     review="Exceptional"
                     stars={star}
                     content={false}
+                    sale={false}
                     height="255"
                 />
                 <Model
@@ -85,9 +88,10 @@ const Main = () => {
                     number="4"
                     BestText="Best Choice"
                     Builder="CDK"
-                    heading="WixPro 72-Inch Responsive Website Builder-"
-                    para="An extensive library of widgets and apps, and detailed step-by-step guides."
+                    heading="CDK Resposive Builder: "
+                    para="An extensive library of widgets and apps, and detailed step-by-step guides"
                     content={true}
+                    sale={true}
                     highlights="Main highlights"
                     para2={false}
                     show="Show More"
