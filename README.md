@@ -23,24 +23,17 @@ Make sure you have the following software installed on your machine:
 - [npm](https://www.npmjs.com/) (comes with Node.js installation)
 
 ### Installation
-
-1. Clone the repository to your local machine:
-
-```bash
+# 1. Clone the repository to your local machine:
 git clone https://github.com/AmeyTari2002/assignment.git
 
-2. Change into the project directory:
-
-```bash
+# 2. Change into the project directory:
 cd assignment-main
 
-3. Install dependencies:
-
-```bash
+# 3. Install dependencies:
 npm install
 
-4. Run Project
-```bash
+# 4. Run the project:
 npm run dev
+
 
 
