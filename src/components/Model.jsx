@@ -32,7 +32,7 @@ const Model = ({ BestChoice, BestImg, BestText, number, height,sale, content, Bu
 
                     </div>
                     <div className='col-span-2  leading-[24px]' >
-                        <p className='text-[16px] text-[#4B5665] leading-[24px] w-[503px] font-[400]'><span className='font-bold'>{heading}</span>{para}
+                        <p className='text-[16px] text-[#4B5665] leading-[24px] md:w-[503px] font-[400]'><span className='font-bold'>{heading}</span>{para}
                         </p>
                         {sale && (
                             <p className='text-[#074786] bg-[#F2F4F7]  text-[13px] h-[26px] w-[61px] rounded-[4px] mt-[9px] '>(26% Off)</p>
